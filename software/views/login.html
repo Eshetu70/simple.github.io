@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Log into your account!</h2>
+        <form action="/" method = "POST">
+            <input type="email" id="email" name = "useremail"placeholder="Email" required><br>
+            <input type="password" id="password" name = "userpass" placeholder="Password" required><br>
+            <input type="submit" class= "btn" value="Login">
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+        </form>
+    </main>
+    <div data-include="components/footer.html"></div>
+ <script src="../scripts/HTMLInclude.js"></script>
+</body>
+
+</html>
